@@ -1,0 +1,168 @@
+*{
+margin:0;
+padding:0;
+font-family:calibri, ‚segoe ui‛, arial, tahoma, sans-serif;
+}
+
+body{background-color:#326EE9;}
+
+#menu{
+width:900px;
+height:35px;
+margin: 50px auto;
+margin-bottom:3px;
+background-color:#002D59;
+list-style:none;
+}
+
+#menu li {
+float:left;
+padding:8px 10px;
+border-right:1px solid #555555;
+color:white;
+font-weight:bold;}
+
+#menu li:hover{background-color:#55A0FF;}
+
+
+#menu li a{
+text-decoration:none;
+
+}
+
+#logout{
+margin:0 10px;
+float:right;
+border-right:none;
+}
+#logout li{border:none;}
+
+#halaman{
+width : 900px;
+margin: 0 auto;
+overflow:hidden;
+background-color:#DAE0F1;
+}
+
+#logo{
+float:right;
+height:91px;
+width:214px;
+margin:30px;
+background:url("images/ojbikewash.png");
+
+}
+
+.notifikasi{
+margin:50px 50px 0 50px;
+float:left;
+}
+
+.opsi {
+margin-top:60px;
+float:left;
+}
+.opsi select{width:150px;}
+
+#notifikasi2{
+color:green;
+margin-top:50px;
+}
+
+
+#button1{
+float:left;
+margin:80px 0 0 330px;
+clear:both;
+}
+
+#button1 input[type=submit]{
+padding:2px 15px;
+background:#002D59;
+border:none;
+cursor:pointer;
+color:white;
+width:200px; 
+height:30px; 
+font-size:16pt;
+}
+
+#daftar-cuci{
+margin:50px 0 50px 35px;
+clear:both;
+float:left;
+}
+
+#daftar-cuci table{margin-bottom:150px;}
+
+#daftar-cuci input{
+display:none;
+}
+
+#daftar-cuci label {
+  font-weight: bold;
+  font-size: 14px;
+  display: block;
+}
+#daftar-cuci label:hover {
+background-color:orange;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#daftar-cuci input:checked + label {
+ background-color:#1A80E6;
+ color:white;
+  text-decoration: none;
+}
+
+#tombol-simpan input:hover{background:#1A80E6;}
+
+#daftar-cuci td{padding:3px;border-bottom:1px solid black;}
+
+
+
+/* Jendela Pop Up */
+#popup {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: rgba(0,0,0,.7);
+	top: 0;
+	left: 0;
+	z-index: 9999;
+}
+
+.window {
+	width: 400px;
+	background: #fff;
+	position: relative;
+	padding: 10px;
+	text-align: center;
+	margin: 20% auto;
+	overflow:hidden;
+}
+.window h3 {
+	margin: 5% 0 0 0;
+}
+
+.window input[type=text]{height:30px; width:150px;margin-right:30px; font-size:20pt; font-weight:bold;}
+.window input[type=submit] {cursor:pointer;position:border:none; color:white; background:#002D59; border:none;margin:30px 0 30px 0; width:100px; font-size:20px;}
+.button {text-decoration:none;cursor:pointer;position:relative;left:135px;float:left;border:none; color:white; background:#002D59;margin:30px 10px 30px 10px; width:100px; font-size:20px;}
+
+
+
+#footer{
+color:white;
+text-align:center;
+padding-top:5px;
+width:900px;
+height:30px;
+margin: 3px auto 35px;
+background-color:#002D59;
+}
+
+
+
+
+

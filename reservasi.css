@@ -1,0 +1,216 @@
+*{
+margin:0;
+padding:0;
+font-family:calibri, ‚segoe ui‛, arial, tahoma, sans-serif;
+
+}
+
+body{background-color:#326EE9;}
+
+#menu{
+width:900px;
+height:35px;
+margin: 50px auto;
+margin-bottom:3px;
+background-color:#002D59;
+list-style:none;
+font-weight:bold;
+box-shadow: 0px -1px 13px rgba(0,0,0,0.5);
+}
+
+#menu li {
+float:left;
+padding:8px 10px;
+border-right:1px solid #555555;
+color:white;
+}
+
+#menu li:hover{background-color:orange;color:black; transition: all 150ms ease-in-out;}
+
+
+#menu li a{
+text-decoration:none;
+}
+
+#logout{
+float:right;
+border-right:none;
+}
+#logout li{border:none;}
+
+#halaman{
+width : 900px;
+margin: 0 auto;
+overflow:hidden;
+background-color:#DAE0F1;
+}
+
+#logo{
+float:right;
+height:91px;
+width:214px;
+margin:30px;
+background:url("images/ojbikewash.png");
+
+}
+
+#notifikasi{
+margin:50px;
+float:left;
+}
+
+#notifikasi2{
+color:green;
+margin-top:50px;
+
+}
+
+
+#form{
+width : 900px;
+overflow:hidden;
+}
+
+.form{
+margin-left:35px;
+float:left;
+
+}
+
+.form-id{width: 150px; height:70px; font-size:30pt; text-align:center; }
+.form-nopol{width:400px; height:70px; font-size:30pt; text-align:center;}
+.form-tipe{width: 200px; height:70px; font-size:20pt; text-align:center; resize:none;}
+
+#tombol-simpan{
+padding:60px 35px;
+float:right;
+}
+
+#tombol-simpan input[type=submit]{
+padding:2px 15px;
+background:#002D59;
+border:none;
+cursor:pointer;
+color:white;
+width:200px; 
+height:30px; 
+font-weight:bold;
+font-size:16pt;
+box-shadow: 0px 3px 13px rgba(0,0,0,0.7);
+}
+
+
+
+#tombol-simpan input:hover{background:orange; transition: all 150ms ease-in-out;}
+
+/* Jendela Pop Up */
+#popup {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: rgba(0,0,0,.7);
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	visibility: hidden;
+}
+
+.window {
+	width: 400px;
+	background: #fff;
+	position: relative;
+	padding: 10px;
+	text-align: center;
+	margin: 15% auto;
+	font-weight:bold;
+	box-shadow: 0px 3px 50px rgba(0,0,0,1);
+}
+.window h3 {
+	font-size:25pt;
+	margin: 5% 0 0 0;
+}
+
+.window input[type=submit]{cursor:pointer;border:none; color:white; background:#002D59;margin:30px 0 30px 0; width:100px; font-weight:bold;font-size:20px;box-shadow: 0px 3px 13px rgba(0,0,0,0.7);}
+.window input:hover{background:orange; transition: all 150ms ease-in-out;}
+
+
+
+/* Button Close */
+.close-button {
+	width: 25px;
+	height: 25px;
+	line-height: 23px;
+	background: #000;
+	border-radius: 50%;
+	border: 3px solid #fff;
+	display: block;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	position: absolute;
+	top: -10px;
+	right: -10px;	
+}
+
+.blink {
+  -moz-animation-duration: 400ms;
+  -moz-animation-name: blink;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-direction: alternate;
+  
+  -webkit-animation-duration: 400ms;
+  -webkit-animation-name: blink;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  
+  animation-duration: 400ms;
+  animation-name: blink;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@-moz-keyframes blink {
+  from {
+    opacity: 1;
+  }
+  
+  to {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes blink {
+  from {
+    opacity: 1;
+  }
+  
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes blink {
+  from {
+    opacity: 1;
+  }
+  
+  to {
+    opacity: 0;
+  }
+}
+
+#footer{
+color:white;
+text-align:center;
+padding-top:5px;
+width:900px;
+height:30px;
+margin: 3px auto;
+background-color:#002D59;
+box-shadow: 0px 5px 13px rgba(0,0,0,0.6);
+}
+
+
+
+
+

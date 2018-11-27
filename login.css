@@ -1,0 +1,58 @@
+*{font-family:calibri, ‚segoe ui‛, arial, tahoma, sans-serif;}
+
+
+body{background-color:#326EE9;}
+#wrapper{margin:100px auto;width:300px;background:white; padding:10px; box-shadow: 13px 13px 13px rgba(0,0,0,0.6);}
+#logo{height:91px; width:214px;background:url("images/ojbikewash.png"); background-repeat:no-repeat; margin:20px auto;}
+#form{width:150px;margin:0px auto;}
+#form input{text-align:center;margin:10px auto;background:#002D59;color:white;border:none; height:23px; font-weight:bold;}
+#button {width:150px;margin:10px auto;}
+#button input[type=submit]{
+padding:2px 15px;
+background:#002D59;
+border:none;
+cursor:pointer;
+color:white;
+width:137px; 
+height:30px; 
+font-weight:bold;
+font-size:18px;
+margin:20px auto;
+}
+#button input:hover{background:orange;transition: all 150ms ease-in-out;}
+#form input[type=text]:hover{background:orange;transition: all 150ms ease-in-out;}
+
+input{box-shadow: 5px 5px 5px rgba(0,0,0,0.5);}
+
+/* Jendela Pop Up */
+#popup {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: rgba(0,0,0,.7);
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	visibility: hidden;
+}
+
+.window {
+	width: 400px;
+	background: #fff;
+	position: relative;
+	padding: 10px;
+	text-align: center;
+	margin: 15% auto;
+	overflow:hidden;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);}
+}
+.window h3 {
+	margin: 5% 0 0 0;
+}
+
+.window input[type=text]{height:30px; width:150px;margin-right:30px; font-size:20pt; font-weight:bold;}
+.window input[type=submit]{cursor:pointer;position:relative;left:80px;float:left;border:none; color:white; background:#002D59;margin:30px 10px 30px 10px; width:100px; font-size:20px;}
+.window input:hover{background:orange;transition: all 150ms ease-in-out;}
+
+
+

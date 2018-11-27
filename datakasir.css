@@ -1,0 +1,166 @@
+*{
+margin:0;
+padding:0;
+font-family:calibri, ‚segoe ui‛, arial, tahoma, sans-serif;
+
+}
+
+body{background-color:#326EE9;}
+
+#menu{
+width:900px;
+height:35px;
+margin: 50px auto;
+margin-bottom:3px;
+background-color:#002D59;
+list-style:none;
+font-weight:bold;
+box-shadow: 0px -1px 13px rgba(0,0,0,0.5);
+}
+
+#menu li {
+float:left;
+padding:8px 10px;
+border-right:1px solid #555555;
+color:white;
+}
+
+#menu li:hover{background-color:orange;color:black; transition: all 150ms ease-in-out;}
+
+#menu li a{
+text-decoration:none;
+}
+
+#logout{
+float:right;
+border-right:none;
+}
+#logout li{border:none;}
+
+#halaman{
+width : 900px;
+margin: 0 auto;
+overflow:hidden;
+background-color:#DAE0F1;
+}
+
+#logo{
+float:right;
+height:91px;
+width:214px;
+margin:30px;
+background:url("images/ojbikewash.png");
+
+}
+
+#notifikasi{
+margin:30px 0 50px 50px;
+}
+
+.form  input [type=text]:hover{cursor:pointer;background-color:orange; transition: all 150ms ease-in-out;}
+
+.form{
+width:350px;
+text-align:right;
+padding:10px;
+border:none;
+}
+
+
+
+#tombol-simpan{
+margin:50px 0 50px 165px;
+}
+
+#tombol-simpan input[type=submit]{
+padding:2px 15px;
+background:#002D59;
+border:none;
+cursor:pointer;
+color:white;
+width:200px; 
+height:30px; 
+font-size:16pt;
+box-shadow: 0px 3px 13px rgba(0,0,0,0.7);
+}
+
+
+.list:hover{background-color:orange;color:black; transition: all 150ms ease-in-out;}
+
+.tbhead {font-weight:bold;}
+.tbhead td {border-bottom:1px solid black;}
+
+.edit input[type=submit] {opacity:0.4;background:url("images/edit.png"); width:20px; height:20px; cursor:pointer;border:none; margin:1px 0 5px 5px;}
+.edit input:hover {opacity:1;background:url("images/edit.png"); width:20px; height:20px;transition: all 150ms ease-in-out;}
+
+.hapus input[type=submit] {opacity:0.4;background:url("images/hapus.png"); width:21px; height:20px; cursor:pointer;border:none; margin:1px 0 5px 8px;}
+.hapus input:hover {opacity:1;background:url("images/hapus.png"); width:21px; height:20px;transition: all 150ms ease-in-out;}
+
+
+
+#tombol-simpan input:hover{background:orange; transition: all 150ms ease-in-out;}
+
+/* Jendela Pop Up */
+#popup {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: rgba(0,0,0,.7);
+	top: 0;
+	left: 0;
+	z-index: 9999;
+}
+
+.window {
+	width: 400px;
+	
+	background: #fff;
+	position: relative;
+	padding: 10px;
+	text-align: center;
+	margin: 15% auto;
+}
+.window h3 {
+	margin: 10% 0 0 0;
+}
+
+.window input[type=submit]{margin-bottom:35px;padding:2px;cursor:pointer;border:none; color:white; background:#002D59;margin-top:30px; width:100px; font-size:20px;box-shadow: 0px -1px 13px rgba(0,0,0,0.5)}
+.window input[type=submit]:hover{background:orange; transition: all 150ms ease-in-out;}
+
+
+
+/* Button Close */
+.close-button {
+	width: 25px;
+	height: 25px;
+	line-height: 23px;
+	background: #000;
+	border-radius: 50%;
+	border: 3px solid #fff;
+	display: block;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	position: absolute;
+	top: -10px;
+	right: -10px;	
+}
+
+
+
+
+#footer{
+color:white;
+text-align:center;
+padding-top:5px;
+width:900px;
+height:30px;
+margin: 3px auto 35px auto;
+background-color:#002D59;
+box-shadow: 0px 5px 13px rgba(0,0,0,0.6);
+}
+
+
+
+
+
